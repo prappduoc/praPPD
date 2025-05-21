@@ -1,13 +1,13 @@
 WEBVTT
 
 00:00.000 --> 00:05.000
-Bienvenidos a este tutorial sobre GitHub Pages.
+Benvinguts a aquesta mostra de capacitats en HTML5 per a vídeo.
 
 00:05.000 --> 00:10.000
-En este video aprenderás cómo subir un sitio web estático.
+En aquest vídeo s'ha afegit subtítols que es mostren al moment temporal desitjat.
 
 00:10.000 --> 00:15.000
-Primero, crea un repositorio en GitHub y sube tus archivos.
+Són molt útils per transcriure converses, o descripcions, del que es veu.
 
-00:15.000 --> 00:18.000
-Luego, activa GitHub Pages desde la configuración del repositorio.
+00:15.000 --> 00:19.000
+Es poden habilitar i inhabilitar al reproductor de vídeo.
