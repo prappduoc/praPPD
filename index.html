@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPD. Pràctica. Exercici 1</title>	 
+    <style>
+        body {
+            background-color: lightblue;
+			video {
+            display: block; 
+            margin: auto; 
+			}			
+        }
+    </style>
+</head>
+
+<body>
+    <h1>UOC. Plataformes de Publicació i Distribució.</h1>
+	<h1>Pràctica. Exercici 1. Clip de vídeo incrustat en HTML5</h1>
+	<h3>Alumne: Joan Carles Martínez Rodríguez.</h3>
+	<h3>Data de lliurament: 26/05/2025.</h3>
+	
+	<style>
+        .marc-video {
+            border: 4px solid black;
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 4px 4px 15px rgba(0,0,0,0.5); /* Sombra */
+        }
+    </style>
+	
+	<h2>Tasca 1.2 Incrustació de clip de vídeo amb multiformat</h2>
+    <video class="marc-video" width="640" height="360" controls playsinline>
+        <source src="pra_web.mp4" type="video/mp4">		   
+        <source src="pra_web.webm" type="video/webm">
+        <source src="pra_web.ogg" type="video/ogg">
+        El teu navegador no suporta aquest element de vídeo.
+    </video>
+	
+	<h2>Tasca 1.4 Afegida la funcionalitat imatge d'inici</h2>
+    <video class="marc-video" width="640" height="360" controls poster="logo.png">
+        <source src="pra_web.mp4" type="video/mp4">		   
+        <source src="pra_web.webm" type="video/webm">
+        <source src="pra_web.ogg" type="video/ogg">
+        El teu navegador no suporta aquest element de vídeo.
+    </video>
+	
+	<h2>Tasca 1.4 Afegida la funcionalitat autoplay i loop, i sense àudio ni controls</h2>
+    <video class="marc-video" width="640" height="360" autoplay loop muted>
+        <source src="pra_web.mp4" type="video/mp4">		   
+        <source src="pra_web.webm" type="video/webm">
+        <source src="pra_web.ogg" type="video/ogg">
+        El teu navegador no suporta aquest element de vídeo.
+    </video>
+			
+	<h2>Tasca 1.4 Afegida la funcionalitat de mostrar un fragment entre els segons 15 i 18, i sense àudio</h2>
+    <video class="marc-video" width="640" height="360" controls muted>
+        <source src="pra_web.mp4#t=15,18" type="video/mp4">		   
+        <source src="pra_web.webm#t=15,18" type="video/webm">
+        <source src="pra_web.ogg#t=15,18" type="video/ogg">
+        El teu navegador no suporta aquest element de vídeo.		
+    </video>	
+	
+	<h2>Tasca 1.4 Afegida la funcionalitat track</h2>
+    <video class="marc-video" width="640" height="360" controls muted>
+        <source src="pra_web.mp4" type="video/mp4">		   
+        <source src="pra_web.webm" type="video/webm">
+        <source src="pra_web.ogg" type="video/ogg">
+		<track src="video_track.vtt" kind="subtitles" srclang="es" label="Español">
+        El teu navegador no suporta aquest element de vídeo.
+    </video>
+</body>
+</html>
